@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="../../style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><div id="home"><a href="../../index.html">Home</a></div></li>
+            <li><div id="skills"><a href="../skills.html">Skills</a></div></li>
+            <li><div id="portfolio"><a href="../portfolio.html">Portfolio</a></div></li>
+            <li><div id="about_me"><a href="../about_me.html">About me</a></div></li>
+          </ul>
+        </nav>
+        <div id="page_indicator_container">
+          <div id="page_indicator" style="left: 56.25%; background-color: transparent;"></div>
+        </div>
+      </header>
+      <div id="main">
+        <div id="content">
+          <div id="left_arrow_container" class="arrow_container"><a href="daily_greens.html" class="arrow"><div><img src="../../resources/icons/left-arrow.svg"></div></a></div>
+          <div id="right_arrow_container" class="arrow_container"><a href="election_system.html" class="arrow"><div><img src="../../resources/icons/right-arrow.svg"></div></a></div>
+          <div id="portfolio_description">
+            <h2>Battleship</h2>
+            <div id="portfolio_description_tags">
+              <div class="tag">game</div><div class="tag">c#</div><div class="tag">desktop</div><div class="tag">AI</div>
+            </div>
+            <div id="portfolio_description_images">
+              <div class="portfolio_description_image_title">Battleship gameplay</div>
+              <img src="../../resources/images/battleship.jpg">
+            </div>
+            <h2>Skills involved</h2>
+              <p>
+                <span>C#</span> <span>.NET</span> <span>WPF</span> <span>Game&nbsp;Development</span> <span>AI</span> <span>Software&nbsp;Architecture</span>
+              </p>
+            <h2>Learn More</h2>
+            <p>This project was the final assignment in the introduction course to C# in Dawson College.
+              The goal of the assignment was to recreate the iconic battleship game in teams of 4 in 2 weeks.
+              The game was done using the WPF graphic subsystem. I was in charge of many of the game mechanics, including
+              the architecture planning and the computer AI.</p>
+            <p>The project is available online at <a href="https://github.com/yankolo/battleship" target="_blank" class="external_link">https://github.com/yankolo/battleship</a></p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div>
+          <a href="mailto:yankolo1234@gmail.com"><div id="first_icon" class="social_media"></div></a>
+          <a href="https://www.facebook.com/profile.php?id=100009491873160" target="_blank"><div id="second_icon" class="social_media"></div></a>
+          <a href="https://github.com/yankolo" target="_blank"><div id="forth_icon" class="social_media"></div></a>
+          <a href="https://www.linkedin.com/in/yanik-kolomatski-081392160/" target="_blank"><div id="third_icon" class="social_media"></div></a>
+        </div>
+      </footer>
+
+      <div id="to_do_list_container">
+        <div id="to_do_list">
+          <h2>To Do List</h2>
+          <label for="new_to_do_text">Add new item: </label>
+          <input type="text" id="new_to_do_input" maxlength="100">
+          <button id="submit">Submit</button>
+
+          <table>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

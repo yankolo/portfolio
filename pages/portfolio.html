@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><div id="home"><a href="../index.html">Home</a></div></li>
+            <li><div id="skills"><a href="skills.html">Skills</a></div></li>
+            <li><div id="portfolio"><a href="portfolio.html" class="current_page">Portfolio</a></div></li>
+            <li><div id="about_me"><a href="about_me.html">About me</a></div></li>
+          </ul>
+        </nav>
+        <div id="page_indicator_container">
+          <div id="page_indicator" class="page_indicator_portfolio"></div>
+        </div>
+      </header>
+      <div id="main">
+        <div id="content">
+          <div id="portfolio_container">
+			<a href="portfolio_items/portfolio.html" class="portfolio_item">
+              <div class="portfolio_title">portfolio</div>
+              <img class="portfolio_image" src="../resources/images/portfolio_compressed.jpg"/>
+              <div class="tags"><div class="tag">javascript</div><div class="tag">css</div></div>
+            </a>
+			<a href="portfolio_items/sliding_puzzle.html" class="portfolio_item">
+              <div class="portfolio_title">sliding puzzle</div>
+              <img class="portfolio_image" src="../resources/images/puzzle_compressed.jpg"/>
+              <div class="tags"><div class="tag">javascript</div><div class="tag">game</div><div class="tag">html</div><div class="tag">css</div></div>
+            </a>
+			<a href="portfolio_items/quiz_system.html" class="portfolio_item">
+              <div class="portfolio_title">quiz system</div>
+              <img class="portfolio_image" src="../resources/images/quiz_compressed.jpg"/>
+              <div class="tags"><div class="tag">asp.net</div><div class="tag">c#</div><div class="tag">cloud</div><div class="tag">mvc</div><div class="tag">sql</div></div>
+            </a>
+			<a href="portfolio_items/isp_database.html" class="portfolio_item">
+              <div class="portfolio_title">isp database</div>
+              <img class="portfolio_image" src="../resources/images/isp_compressed.jpg"/>
+              <div class="tags"><div class="tag">sql</div><div class="tag">oracle</div><div class="tag">java</div><div class="tag">desktop app</div></div>
+            </a>
+			<a href="portfolio_items/daily_greens.html" class="portfolio_item">
+              <div class="portfolio_title">daily greens</div>
+              <img class="portfolio_image" src="../resources/images/daily_greens_compressed.jpg"/>
+              <div class="tags"><div class="tag">website</div><div class="tag">design</div><div class="tag">html</div><div class="tag">css</div></div>
+            </a>
+            <a href="portfolio_items/battleship.html" class="portfolio_item">
+              <div class="portfolio_title">battleship</div>
+              <img class="portfolio_image" src="../resources/images/battleship_compressed.jpg"/>
+              <div class="tags"><div class="tag">game</div><div class="tag">c#</div><div class="tag">desktop</div><div class="tag">AI</div></div>
+            </a>
+            <a href="portfolio_items/election_system.html" class="portfolio_item">
+              <div class="portfolio_title">election system</div>
+              <img class="portfolio_image" src="../resources/images/election_system_compressed.jpg"/>
+              <div class="tags"><div class="tag">java</div><div class="tag">desktop</div><div class="tag">oop</div></div>
+            </a>
+			<a href="portfolio_items/image_manipulation.html" class="portfolio_item">
+              <div class="portfolio_title">image manipulation</div>
+              <img class="portfolio_image" src="../resources/images/image_manipulation_compressed.jpg"/>
+              <div class="tags"><div class="tag">c#</div><div class="tag">desktop</div><div class="tag">library</div></div>
+            </a>            
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div>
+          <a href="mailto:yankolo1234@gmail.com"><div id="first_icon" class="social_media"></div></a>
+          <a href="https://www.facebook.com/profile.php?id=100009491873160" target="_blank"><div id="second_icon" class="social_media"></div></a>
+          <a href="https://github.com/yankolo" target="_blank"><div id="forth_icon" class="social_media"></div></a>
+          <a href="https://www.linkedin.com/in/yanik-kolomatski-081392160/" target="_blank"><div id="third_icon" class="social_media"></div></a>
+        </div>
+      </footer>
+
+      <div id="to_do_list_container">
+        <div id="to_do_list">
+          <h2>To Do List</h2>
+          <label for="new_to_do_text">Add new item: </label>
+          <input type="text" id="new_to_do_input" maxlength="100">
+          <button id="submit">Submit</button>
+
+          <table>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
